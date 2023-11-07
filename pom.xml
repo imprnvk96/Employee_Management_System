@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>in.co.vwits</groupId>
+  <artifactId>ems</artifactId>
+  <version>1.0.0-RELEASE</version>
+  <properties>
+		<maven.compiler.target>17</maven.compiler.target>
+		<maven.compiler.source>17</maven.compiler.source>
+
+		<!--	  Following tag is a custom tag-->
+		<jackson.version>2.15.2</jackson.version>
+		<mysql.version>8.0.29</mysql.version>
+		<junit.version>5.9.2</junit.version>
+	</properties>
+  <dependencies>
+	  <dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>${mysql.version}</version>
+		</dependency>
+		
+		
+	  
+  </dependencies>
+</project>
